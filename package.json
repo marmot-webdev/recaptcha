@@ -1,0 +1,42 @@
+{
+  "name": "@marmot-webdev/recaptcha",
+  "version": "1.0.0",
+  "description": "A module for dynamic loading, rendering, and validating Google reCAPTCHA v2 widgets (checkbox type) in web forms.",
+  "license": "MIT",
+  "author": "Serhii Babakov <marmot.webdev@gmail.com>",
+  "homepage": "https://github.com/marmot-webdev/recaptcha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marmot-webdev/recaptcha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marmot-webdev/recaptcha/issues"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "helpers.js",
+    "index.css"
+  ],
+  "keywords": [
+    "recaptcha",
+    "recaptcha widget",
+    "reCAPTCHA",
+    "reCAPTCHA v2",
+    "grecaptcha",
+    "g-recaptcha",
+    "google",
+    "google recaptcha",
+    "checkbox",
+    "loading",
+    "lazy loading",
+    "form",
+    "validate",
+    "validation",
+    "wrapper"
+  ],
+  "dependencies": {
+    "@marmot-webdev/dataset-obj": "^1.0.0"
+  }
+}

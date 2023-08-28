@@ -1,0 +1,9 @@
+/* Make sure that the parent of .g-recaptcha-checkbox has relative positioning. */
+
+.g-recaptcha-checkbox {
+  position: absolute;
+  top: 36px;
+  left: 20px;
+  z-index: -1;
+  opacity: 0;
+}
